@@ -1,0 +1,133 @@
+.header_wrapper {
+	background-color: #686868;
+	background-image: url(../img/banner.png);
+	background-size: 100%;
+}
+.page_header {
+  padding: 20px 31px;
+  height: 24px;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+}
+.header_logo {
+	font-size: 24px;
+	color: white;
+  width: 10%;
+  margin-right: 47px;
+}
+.logo_span {
+	color: #da2346;
+}
+.header_list {
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.header_navigation {
+  width: 80%;
+  padding-top: 4px;
+}
+.navigation_link {
+  font-family: 'SansationRegular';
+	font-size: 20px;
+	color: white;
+}
+.navigation_link:hover {
+  color: #097e89;
+}
+.header_follow_us {
+  width: 10%;
+}
+.follow_us_link {
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 1px solid rgba(256, 256, 256, 0.5);
+}
+
+
+.banner_carousel {
+	display: flex;
+	justify-content: center;
+	padding-top: 15%;
+	padding-bottom: 20%;
+}
+.gallery_wrapper {
+	width: 732px;
+	border: 1px solid rgba(256, 256, 256, 0.5);
+	border-bottom: 0;
+	overflow: hidden;
+}
+.gallery {
+  width: 2202px;
+	display: flex;
+	flex-direction: row;
+  transition: margin-left 250ms;
+}
+.banner_arrow {
+  position: absolute;
+  top: 60%;
+	color: rgba(256, 256, 256, 0.5);
+	font-size: 40px;
+  display: block;
+	padding: 10px;
+	border: 1px solid rgba(256, 256, 256, 0.5);
+}
+.banner_text {
+  color: white;
+  font-family: 'SansationRegular';
+  font-size: 14px;
+  text-align: center;
+	padding: 88px 70px;
+}
+.banner_headline {
+  font-size: 52px;
+  font-family: 'SansationBold';
+  text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+
+.banner_arrow:hover {
+	color: white;
+	border: 1px solid white;
+}
+.banner_arrow.arrow_prev {
+  left: 31px;
+}
+.banner_arrow.arrow_next {
+  right: 31px;
+}
+
+.button_wrapper::before {
+	content: '';
+	border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+	display: inline-block;
+	width: 235px;
+	margin-right: 55px;
+}
+.button_wrapper {
+	position: absolute;
+	top: 76%;
+}
+.button_wrapper::after {
+	content: '';
+	border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+	display: inline-block;
+	width: 235px;
+	margin-left: 55px;
+
+}
+.banner_button {
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	font-size: 18px;
+	font-family: 'SansationRegular';
+	text-transform: uppercase;
+	padding: 15px 35px;
+}
+.banner_button:hover {
+	color: #097e89;
+	border-color: #097e89;
+}

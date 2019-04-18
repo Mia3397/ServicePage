@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link href="css/style.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <title>Service page</title>
+  </head>
+  <body>
+    <div class="header_wrapper">
+      <header class="page_header flex_block">
+        <a href="javascript:;" class="link header_logo ">LO<span class="logo_span">GO</span></a>
+        <nav class="navigation header_navigation">
+          <ul class="list header_list navigation_list flex_block">
+            <li class="item"><a href="javascript:;" class="link navigation_link">Home</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">About</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">Services</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">Feedback</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">Clients</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">Contact</a></li>
+            <li class="item"><a href="javascript:;" class="link navigation_link">Pages</a></li>
+          </ul>
+        </nav>
+        <ul class="header_list follow_us header_follow_us flex_block">
+          <li class="item ">
+            <a href="javascript:;" class="link flex_block follow_us_link">
+              <img src="img/fb-icon.png" alt="">
+            </a>
+          </li>
+          <li class="item">
+            <a href="javascript:;" class="link flex_block follow_us_link">
+              <img src="img/tw-icon.png" alt="">
+            </a>
+          </li>
+          <li class="item">
+            <a href="javascript:;" class="link flex_block follow_us_link">
+              <img src="img/g+-icon.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </header>
+      <div class="carousel banner_carousel">
+        <a class="link banner_arrow arrow_prev" href="javascript:;">&lt;</a>
+        <div class="gallery_wrapper">
+          <ul class="gallery">
+            <li class="item">
+              <div class="banner_text">
+                <h2 class="headline banner_headline">The best services</h2>
+                <p>We provide the best services in the world. We provide the best services in the world. We provide the best services in the world.</p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="banner_text">
+                <h2 class="headline banner_headline">The best services 2</h2>
+                <p>We provide the best services in the world. We provide the best services in the world. We provide the best services in the world.</p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="banner_text">
+                <h2 class="headline banner_headline">The best services 3</h2>
+                <p>We provide the best services in the world. We provide the best services in the world. We provide the best services in the world.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="button_wrapper">
+            <button class="button banner_button" type="button" name="button">Hire us</button>
+          </div>
+        </div>
+        <a class="link banner_arrow arrow_next" href="javascript:;">&gt;</a>
+      </div>
+    </div>
+
+
+    <script>
+
+      let width = document.querySelector('.gallery_wrapper').offsetWidth; // ширина изображения
+      let count = 1; // количество изображений
+
+      let carousel = document.querySelector('.carousel');
+      let list = carousel.querySelector('.gallery');
+      let listElems = carousel.querySelectorAll('.item');
+
+      let position = 0; // текущий сдвиг влево
+
+      carousel.querySelector('.arrow_prev').onclick = function() {
+        // сдвиг влево
+        // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+        position = Math.min(position + width * count, 0)
+        list.style.marginLeft = position + 'px';
+      };
+
+      carousel.querySelector('.arrow_next').onclick = function() {
+        // сдвиг вправо
+        // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+        position = Math.max(position - width * count, -width * (listElems.length - count));
+        list.style.marginLeft = position + 'px';
+      };
+    </script>
+
+
+  </body>
+
+
+</html>
