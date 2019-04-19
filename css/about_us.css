@@ -13,7 +13,6 @@
 
 .about_us {
   flex-basis: 50%;
-  font-family: 'SansationRegular';
   padding: 70px 70px;
   box-sizing: border-box;
 }
@@ -35,6 +34,7 @@
   color: #252525;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-family: 'SansationRegular';
 }
 .text_wrapper {
   padding: 40px 0px;
