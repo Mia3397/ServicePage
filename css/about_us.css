@@ -34,7 +34,7 @@
   color: #252525;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: 'SansationRegular';
+  /* font-family: 'SansationRegular'; */
 }
 .text_wrapper {
   padding: 40px 0px;
@@ -46,7 +46,7 @@
 .about_us_button {
   padding: 12px 50px;
   background-color: #05a0af;
-  font-family: 'SansationRegular';
+  /* font-family: 'SansationRegular'; */
   text-transform: uppercase;
   color: white;
   border-radius: 3px;

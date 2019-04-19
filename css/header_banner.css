@@ -26,7 +26,6 @@
   padding-top: 4px;
 }
 .navigation_link {
-  font-family: 'SansationRegular';
 	font-size: 20px;
 	color: white;
 }
@@ -86,14 +85,13 @@
 }
 .banner_text {
   color: white;
-  font-family: 'SansationRegular';
   font-size: 14px;
   text-align: center;
 	padding: 88px 70px;
 }
 .banner_headline {
   font-size: 52px;
-  font-family: 'SansationBold';
+  font-weight: bold;
   text-transform: uppercase;
 	margin-bottom: 30px;
 }
@@ -129,7 +127,6 @@
 	border: 2px solid white;
 	color: white;
 	font-size: 18px;
-	font-family: 'SansationRegular';
 	text-transform: uppercase;
 	padding: 15px 35px;
 }
