@@ -1,4 +1,6 @@
+
 @import 'header_banner.css';
+@import 'about_us.css';
 
 
 @font-face {
@@ -41,20 +43,21 @@
 	    font-weight: bold;
 	    font-style: normal;
 	}
-* {
-	margin: 0;
-	padding: 0;
-}
-.flex_block {
-	display: flex;
-}
-.link {
-	text-decoration: none;
-	cursor: pointer;
-}
-.button {
-	cursor: pointer;
-}
-.item {
-	list-style-type: none;
-}
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.flex_block {
+		display: flex;
+	}
+	.link {
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.button {
+		cursor: pointer;
+	}
+	.item {
+		list-style-type: none;
+	}
