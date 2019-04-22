@@ -73,19 +73,15 @@
 
       let position = 0; // текущий сдвиг влево
 
-      carousel.querySelector('.arrow_prev').onclick = function() {
-        // сдвиг влево
-        // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+      carousel.querySelector('.arrow_prev').addEventListener("click", function() {
         position = Math.min(position + width * count, 0)
         list.style.marginLeft = position + 'px';
-      };
+      }, false);
 
-      carousel.querySelector('.arrow_next').onclick = function() {
-        // сдвиг вправо
-        // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+      carousel.querySelector('.arrow_next').addEventListener("click", function() {
         position = Math.max(position - width * count, -width * (listElems.length - count));
         list.style.marginLeft = position + 'px';
-      };
+      }, false);
     </script>
 
 
