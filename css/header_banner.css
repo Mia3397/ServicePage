@@ -72,22 +72,18 @@
 	overflow: hidden;
 	position: relative;
 }
-.gallery_wrapper::before {
+.gallery_wrapper::before, .gallery_wrapper::after {
 	content: '';
 	border-bottom: 1px solid var(--header_border);
 	display: inline-block;
 	width: 235px;
 	position: absolute;
 	bottom: 0;
+}
+.gallery_wrapper::before {
 	right: 0;
 }
 .gallery_wrapper::after {
-	content: '';
-	border-bottom: 1px solid var(--header_border));
-	display: inline-block;
-	width: 235px;
-	position:absolute;
-	bottom: 0;
 	left: 0;
 }
 .banner_text {

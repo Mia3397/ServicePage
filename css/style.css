@@ -1,5 +1,5 @@
-@import 'fonts.class';
-@import 'components/header_banner.css';
+@import 'fonts.css';
+@import 'header_banner.css';
 
 
 *, *::after, *::before {
