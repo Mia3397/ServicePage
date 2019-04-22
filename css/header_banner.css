@@ -18,12 +18,12 @@
 	color: #da2346;
 }
 .header_list {
-  flex-wrap: nowrap;
-  justify-content: space-around;
 }
 .header_navigation {
   width: 80%;
   padding-top: 4px;
+	flex-wrap: nowrap;
+  justify-content: space-around;
 }
 .navigation_link {
   font-family: 'SansationRegular';
