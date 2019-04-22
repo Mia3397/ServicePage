@@ -2,8 +2,7 @@
 @import 'header_banner.css';
 
 
-
-* {
+*, *::after, *::before {
 	margin: 0;
 	padding: 0;
 }
