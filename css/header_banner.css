@@ -58,6 +58,13 @@
 	padding-top: 15%;
 	padding-bottom: 20%;
 }
+.gallery {
+  width: 2202px;
+	display: flex;
+	flex-direction: row;
+  transition: margin-left 250ms;
+	position: relative;
+}
 .gallery_wrapper {
 	width: 730px;
 	border: 1px solid var(--header_border);
@@ -82,13 +89,6 @@
 	position:absolute;
 	bottom: 0;
 	left: 0;
-}
-.gallery {
-  width: 2202px;
-	display: flex;
-	flex-direction: row;
-  transition: margin-left 250ms;
-	position: relative;
 }
 .banner_text {
   color: white;
