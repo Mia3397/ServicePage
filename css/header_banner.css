@@ -58,6 +58,13 @@
 	padding-top: 15%;
 	padding-bottom: 20%;
 }
+.gallery_wrapper {
+	width: 730px;
+	border: 1px solid var(--header_border);
+	border-bottom: 0;
+	overflow: hidden;
+	position: relative;
+}
 .gallery_wrapper::before {
 	content: '';
 	border-bottom: 1px solid var(--header_border);
@@ -66,13 +73,6 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-}
-.gallery_wrapper {
-	width: 730px;
-	border: 1px solid var(--header_border);
-	border-bottom: 0;
-	overflow: hidden;
-	position: relative;
 }
 .gallery_wrapper::after {
 	content: '';
