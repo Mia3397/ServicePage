@@ -33,10 +33,10 @@
 .navigation_link:hover {
   color: #097e89;
 }
-.header_follow_us {
+.follow-us_header {
   width: 10%;
 }
-.follow_us_link {
+.follow-us_link {
   justify-content: center;
   align-items: center;
   width: 24px;
@@ -98,7 +98,7 @@
 	margin-bottom: 30px;
 }
 
-.banner_arrow {
+.banner-arrow {
   position: absolute;
   top: 45%;
 	color: rgba(256, 256, 256, 0.5);
@@ -107,14 +107,14 @@
 	padding: 10px;
 	border: 1px solid rgba(256, 256, 256, 0.5);
 }
-.banner_arrow:hover {
+.banner-arrow:hover {
 	color: white;
 	border: 1px solid white;
 }
-.banner_arrow.arrow_prev {
+.banner-arrow.arrow_prev {
   left: 31px;
 }
-.banner_arrow.arrow_next {
+.banner-arrow.arrow_next {
   right: 31px;
 }
 
