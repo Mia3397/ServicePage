@@ -81,24 +81,27 @@
 
     <script>
 
-      let width = document.querySelector('.gallery_wrapper').offsetWidth; // ширина изображения
-      let count = 1; // количество изображений
+      const width = document.querySelector('.gallery_wrapper').offsetWidth; // ширина изображения
+      const count = 1; // количество изображений
 
-      let carousel = document.querySelector('.carousel');
-      let list = carousel.querySelector('.gallery');
-      let listElems = carousel.querySelectorAll('.item');
+      const carousel = document.querySelector('.carousel');
+      const list = carousel.querySelector('.gallery');
+      const listElems = carousel.querySelectorAll('.item');
 
       let position = 0; // текущий сдвиг влево
 
-      carousel.querySelector('.arrow_prev').addEventListener("click", function() {
-        position = Math.min(position + width * count, 0)
+      const showNextSlide = () => {
+        position = Math.min(position + width * count, 0);
         list.style.marginLeft = position + 'px';
-      }, false);
+      };
 
-      carousel.querySelector('.arrow_next').addEventListener("click", function() {
+      const showPreviousSlide = () => {
         position = Math.max(position - width * count, -width * (listElems.length - count));
         list.style.marginLeft = position + 'px';
-      }, false);
+      };
+
+      carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide, false);
+      carousel.querySelector('.arrow_next').addEventListener("click", showPreviousSlide, false);
     </script>
 
 
