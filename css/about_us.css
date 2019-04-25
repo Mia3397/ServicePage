@@ -1,6 +1,3 @@
-:root {
-  --third-level-headline_color: #515151;
-  }
 .writer__wrapper {
   flex-basis: 50%;
 }
@@ -11,7 +8,7 @@
 }
 .about-us__wrapper {
     display: flex;
-    font-family: 'SansationRegular';
+    font-family: var(--main-font);
 }
 .about-us {
   flex-basis: 50%;
@@ -20,7 +17,7 @@
 }
 .headline__border {
   padding: 10px;
-  border-bottom: 2px solid #515151;
+  border-bottom: 2px solid var(--blue-gray);
   position: relative;
 }
 .headline__border::after {
@@ -34,7 +31,7 @@
 .about-us__headline {
   font-size: 45px;
     font-weight: bold;
-  color: var(--third-level-headline_color);
+  color: var(--blue-gray);
   text-transform: uppercase;
   letter-spacing: 3px;
 }
