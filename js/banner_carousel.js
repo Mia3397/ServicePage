@@ -1,4 +1,4 @@
-const width = document.querySelector('.gallery_wrapper').offsetWidth; // width gallery
+const width = document.querySelector('.gallery__wrapper').offsetWidth; // width gallery
 const count = 1; // number of slides
 
 const carousel = document.querySelector('.carousel');
@@ -17,5 +17,5 @@ const showPreviousSlide = () => {
   list.style.marginLeft = `${position}px`;
 };
 
-carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide, false);
-carousel.querySelector('.arrow_next').addEventListener("click", showPreviousSlide, false);
+carousel.querySelector('.arrow__prev').addEventListener("click", showNextSlide, false);
+carousel.querySelector('.arrow__next').addEventListener("click", showPreviousSlide, false);

@@ -1,139 +1,156 @@
 
 .header__wrapper {
-	background-color: #686868;
-	background-image: url(../../img/banner.png);
-	background-size: 100%;
+    background-color: #686868;
+    background-image: url(../../img/banner.png);
+    background-size: 100%;
     font-family: var(--main-font);
 }
+
 .page__header {
-	display: flex;
-  	padding: 20px 30px;
-  	border-bottom: 1px solid var(--transparent-white);
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--transparent-white);
 }
+
 .header__logo {
-	font-size: 30px;
-	color: white;
-  width: 10%;
-  margin-right: 50px;
+    font-size: 30px;
+    color: white;
+    width: 10%;
+    margin-right: 50px;
 }
+
 .logo__span {
-	color: #da2346;
+    color: #da2346;
 }
-.header__list {
-}
+
 .navigation {
-	flex-wrap: nowrap;
-  	justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
+
 .header__navigation {
-	display: flex;;
-	width: 80%;
-  	padding-top: 5px;
+    display: flex;;
+    width: 80%;
+    padding-top: 5px;
 }
+
 .navigation__link {
-	font-size: 20px;
-	color: white;
+    font-size: 20px;
+    color: white;
 }
+
 .navigation__link:hover {
-  color: #097e89;
+    color: #097e89;
 }
+
 .follow-us {
-  width: 10%;
+    width: 10%;
     display: flex;
 }
+
 .follow-us__link {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  border: 1px solid var(--transparent-white);
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid var(--transparent-white);
 }
-
 
 .banner__carousel {
-	display: flex;
-	justify-content: center;
-	padding-top: 15%;
-	padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
 }
+
 .gallery {
-  width: 2202px;
-	display: flex;
-	flex-direction: row;
-  transition: margin-left 250ms;
-	position: relative;
+    width: 2202px;
+    display: flex;
+    flex-direction: row;
+    transition: margin-left 250ms;
+    position: relative;
 }
+
 .gallery__wrapper {
-	width: 730px;
-	border: 1px solid var(--transparent-white);
-	border-bottom: 0;
-	overflow: hidden;
-	position: relative;
+    width: 730px;
+    border: 1px solid var(--transparent-white);
+    border-bottom: 0;
+    overflow: hidden;
+    position: relative;
 }
+
 .gallery__wrapper::before, .gallery__wrapper::after {
-	content: '';
-	border-bottom: 1px solid var(--transparent-white);
-	display: inline-block;
-	width: 235px;
-	position: absolute;
-	bottom: 0;
+    content: '';
+    border-bottom: 1px solid var(--transparent-white);
+    display: inline-block;
+    width: 235px;
+    position: absolute;
+    bottom: 0;
 }
+
 .gallery__wrapper::before {
-	right: 0;
+    right: 0;
 }
+
 .gallery__wrapper::after {
-	left: 0;
+    left: 0;
 }
+
 .banner__text {
-  color: white;
-  font-size: 14px;
-  text-align: center;
-	padding: 90px 70px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 90px 70px;
 }
+
 .banner__headline {
-  font-size: 52px;
-  font-weight: bold;
-  text-transform: uppercase;
-	margin-bottom: 30px;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .banner__arrow {
-  position: absolute;
-  top: 45%;
-	color: var(--transparent-white);
-	font-size: 40px;
-  display: block;
-	padding: 10px;
-	border: 1px solid var(--transparent-white);
-}
-.banner__arrow:hover {
-	color: white;
-	border: 1px solid white;
-}
-.banner__arrow.arrow__prev {
-  left: 30px;
-}
-.banner__arrow.arrow__next {
-  right: 01px;
+    position: absolute;
+    top: 45%;
+    color: var(--transparent-white);
+    font-size: 40px;
+    display: block;
+    padding: 10px;
+    border: 1px solid var(--transparent-white);
 }
 
+.banner__arrow:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.banner__arrow.arrow__prev {
+    left: 30px;
+}
+
+.banner__arrow.arrow__next {
+    right: 01px;
+}
 
 .button__wrapper {
-	position: absolute;
-	bottom: 0;
-	left: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
 }
+
 .banner__button {
-	background: transparent;
-	border: 2px solid white;
-	color: white;
-	font-size: 18px;
-	text-transform: uppercase;
-	padding: 15px 35px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 35px;
 }
+
 .banner__button:hover {
-	color: var(--light-cyanic);
-	border-color: var(--light-cyanic);
+    color: var(--light-cyanic);
+    border-color: var(--light-cyanic);
 }
