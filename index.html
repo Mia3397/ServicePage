@@ -92,12 +92,12 @@
 
       const showNextSlide = () => {
         position = Math.min(position + width * count, 0);
-        list.style.marginLeft = position + 'px';
+        list.style.marginLeft = `${position}px`;
       };
 
       const showPreviousSlide = () => {
         position = Math.max(position - width * count, -width * (listElems.length - count));
-        list.style.marginLeft = position + 'px';
+        list.style.marginLeft = `${position}px`;
       };
 
       carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide, false);
