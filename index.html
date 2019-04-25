@@ -81,14 +81,14 @@
 
     <script>
 
-      const width = document.querySelector('.gallery_wrapper').offsetWidth; // ширина изображения
-      const count = 1; // количество изображений
+      const width = document.querySelector('.gallery_wrapper').offsetWidth; // width gallery
+      const count = 1; // number of slides
 
       const carousel = document.querySelector('.carousel');
       const list = carousel.querySelector('.gallery');
       const listElems = carousel.querySelectorAll('.item');
 
-      let position = 0; // текущий сдвиг влево
+      let position = 0; // current left shift
 
       const showNextSlide = () => {
         position = Math.min(position + width * count, 0);
