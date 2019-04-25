@@ -1,15 +1,15 @@
 :root {
   --third-level-headline_color: #515151;
   }
-.writer_wrapper {
+.writer__wrapper {
   flex-basis: 50%;
 }
-.writer_img {
+.writer__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.about-us_wrapper {
+.about-us__wrapper {
     display: flex;
     font-family: 'SansationRegular';
 }
@@ -18,12 +18,12 @@
   padding: 70px;
   box-sizing: border-box;
 }
-.headline_border {
+.headline__border {
   padding: 10px;
   border-bottom: 2px solid #515151;
   position: relative;
 }
-.headline_border::after {
+.headline__border::after {
   content: '';
   width: 18%;
   border-bottom: 3px solid #6e6e6e;
@@ -37,14 +37,14 @@
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.text_wrapper {
+.text__wrapper {
   padding: 40px 0px;
 }
-.about-us_text {
+.about-us__text {
   font-size: 18px;
   margin-bottom: 25px;
 }
-.about-us_button {
+.about-us__button {
   padding: 12px 50px;
   background-color: #05a0af;
   text-transform: uppercase;
