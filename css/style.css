@@ -1,6 +1,6 @@
 @import 'fonts.css';
-@import "link.css";
-@import "button.css";
+@import "shared/link.css";
+@import "shared/button.css";
 @import 'components/header_banner.css';
 @import 'components/about_us.css';
 
