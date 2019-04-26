@@ -4,7 +4,7 @@
     background-image: url(../../img/banner.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: var(--main-font);
+    font-family: var(--main-font), Arial, Tahoma;
 }
 
 .page__header {

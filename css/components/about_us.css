@@ -10,7 +10,7 @@
 
 .about-us__wrapper {
     display: flex;
-    font-family: var(--main-font);
+    font-family: var(--main-font), Arial, Tahoma;
 }
 
 .about-us {
