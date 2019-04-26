@@ -3,6 +3,7 @@
     background-color: #686868;
     background-image: url(../../img/banner.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     font-family: var(--main-font);
 }
 
