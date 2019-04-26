@@ -3,7 +3,7 @@ const count = 1; // number of slides
 
 const carousel = document.querySelector('.carousel');
 const list = carousel.querySelector('.gallery');
-const listElems = carousel.querySelectorAll('.item');
+const listElems = carousel.querySelectorAll('.banner__text');
 
 let position = 0; // current left shift
 
