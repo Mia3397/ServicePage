@@ -1,7 +1,7 @@
 const width = document.querySelector('.visible-gallery').offsetWidth; // width gallery
 const count = 1; // number of slides
 
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelector('.banner');
 const list = carousel.querySelector('.gallery');
 const listElems = carousel.querySelectorAll('.banner__text');
 
