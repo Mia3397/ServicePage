@@ -1,8 +1,8 @@
-const width = document.querySelector('.gallery').offsetWidth; // width gallery
+const width = document.querySelector('.visible-gallery').offsetWidth; // width gallery
 const count = 1; // number of slides
 
 const carousel = document.querySelector('.carousel');
-const list = carousel.querySelector('.gallery__wrapper');
+const list = carousel.querySelector('.gallery');
 const listElems = carousel.querySelectorAll('.banner__text');
 
 let position = 0; // current left shift
