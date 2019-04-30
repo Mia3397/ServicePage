@@ -1,6 +1,6 @@
 
 .header {
-    background-color: #686868;
+    background-color: rgba(104, 104, 104, 1);
     background-image: url(../../img/banner.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -15,13 +15,13 @@
 
 .header__logo {
     font-size: 30px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     width: 10%;
     margin-right: 50px;
 }
 
 .color-red {
-    color: #da2346;
+    color: rgba(218, 35, 70, 1);
 }
 
 .header__navigation {
@@ -31,24 +31,25 @@
 
 .navigation__link {
     font-size: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 .navigation__link:hover {
-    color: #097e89;
+    color: rgba(9, 126, 137, 1);
 }
 
 .follow-us {
     width: 10%;
     display: flex;
+    --link-size: 25px;
 }
 
 .follow-us__link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: var(--follow-us__link-size);
-    height: var(--follow-us__link-size);
+    width: var(--link-size);
+    height: var(--link-size);
     border-radius: 100%;
     border: 1px solid var(--transparent-white);
 }
@@ -94,7 +95,7 @@
 }
 
 .banner__text {
-    color: white;
+    color: rgba(255, 255, 255, 1);
     font-size: 14px;
     text-align: center;
     padding: 90px 70px;
@@ -116,8 +117,8 @@
 }
 
 .banner__arrow:hover {
-    color: white;
-    border: 1px solid white;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .banner__arrow.arrow__prev {
@@ -136,8 +137,8 @@
 
 .banner__button {
     background: transparent;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
     font-size: 18px;
     text-transform: uppercase;
     padding: 15px 35px;

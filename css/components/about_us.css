@@ -25,7 +25,7 @@
 .headline-border::after {
     content: '';
     width: 18%;
-    border-bottom: 3px solid #6e6e6e;
+    border-bottom: 3px solid rgba(110, 110, 110, 1);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -48,9 +48,9 @@
 
 .about-us__button {
     padding: 12px 50px;
-    background-color: #05a0af;
+    background-color: rgba(5, 160, 175, 1);
     text-transform: uppercase;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     border-radius: 3px;
     font-size: 18px;
 }
