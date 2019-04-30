@@ -24,13 +24,7 @@
     color: #da2346;
 }
 
-.navigation {
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
 .header__navigation {
-    display: flex;
     width: 80%;
     padding-top: 5px;
 }
