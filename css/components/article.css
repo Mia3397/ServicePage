@@ -1,0 +1,34 @@
+.article {
+    --border-width: 2px;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.article__headline {
+    display: inline-block;
+    font-size: 45px;
+    color: var(--blue-gray);
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: var(--border-width) solid var(--blue-gray);
+    position: relative;
+}
+
+.article__headline::after {
+    content: '';
+    width: 18%;
+    border-bottom: calc(var(--border-width) + 1px) solid rgba(110, 110, 110, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.article__content {
+    padding: 40px 0;
+}
+
+.article__text {
+    font-size: 18px;
+    margin-bottom: 25px;
+}

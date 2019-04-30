@@ -1,0 +1,24 @@
+.about-us {
+    display: flex;
+    font-family: var(--main-font), var(--additional-fonts);
+}
+
+.about-us__img {
+    width: 100%;
+    height: 100%;
+    flex-basis: 50%;
+    object-fit: cover;
+}
+
+.about-us__article {
+    flex-basis: 50%;
+}
+
+.about-us__button {
+    padding: 12px 50px;
+    background-color: rgba(5, 160, 175, 1);
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    font-size: 18px;
+}

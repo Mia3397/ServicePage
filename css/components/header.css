@@ -1,0 +1,25 @@
+.header {
+    background-color: rgba(104, 104, 104, 1);
+    background-image: url(../../img/banner/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: var(--main-font), Arial, Tahoma;
+}
+
+.header__menu {
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--transparent-white);
+}
+
+.header__logo {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    width: 10%;
+    margin-right: 50px;
+}
+
+.header__navigation {
+    width: 80%;
+    padding-top: 5px;
+}

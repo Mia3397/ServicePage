@@ -1,21 +1,21 @@
-const width = document.querySelector('.visible-gallery').offsetWidth; // width gallery
+const galleryWidth = document.querySelector('.gallery').offsetWidth; // width gallery
 const count = 1; // number of slides
 
 const carousel = document.querySelector('.banner');
-const list = carousel.querySelector('.gallery');
-const listElems = carousel.querySelectorAll('.banner__text');
+const list = carousel.querySelector('.gallery__viewer');
+const listElems = carousel.querySelectorAll('.gallery__item');
 
 let position = 0; // current left shift
 
 const showNextSlide = () => {
-  position = Math.min(position + width * count, 0);
+  position = Math.min(position + galleryWidth * count, 0);
   list.style.marginLeft = `${position}px`;
 };
 
 const showPreviousSlide = () => {
-  position = Math.max(position - width * count, -width * (listElems.length - count));
+  position = Math.max(position - galleryWidth * count, -galleryWidth * (listElems.length - count));
   list.style.marginLeft = `${position}px`;
 };
 
-carousel.querySelector('.arrow__prev').addEventListener("click", showNextSlide, false);
-carousel.querySelector('.arrow__next').addEventListener("click", showPreviousSlide, false);
+carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide, false);
+carousel.querySelector('.arrow_next').addEventListener("click", showPreviousSlide, false);
