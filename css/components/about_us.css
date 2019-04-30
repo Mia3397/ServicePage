@@ -16,25 +16,24 @@
     box-sizing: border-box;
 }
 
-.headline-border {
+.about-us__headline {
+    display: inline-block;
+    font-size: 45px;
+    color: var(--blue-gray);
+    letter-spacing: 2px;
+    width: 100%;
     padding: 10px;
     border-bottom: 2px solid var(--blue-gray);
     position: relative;
 }
 
-.headline-border::after {
+.about-us__headline::after {
     content: '';
     width: 18%;
     border-bottom: 3px solid rgba(110, 110, 110, 1);
     position: absolute;
     bottom: 0;
     left: 0;
-}
-
-.about-us__headline {
-    font-size: 45px;
-    color: var(--blue-gray);
-    letter-spacing: 2px;
 }
 
 .about-us__content {
