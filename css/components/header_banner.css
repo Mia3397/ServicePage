@@ -94,7 +94,7 @@
     position: relative;
 }
 
-.banner__text {
+.gallery__item {
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     text-align: center;
