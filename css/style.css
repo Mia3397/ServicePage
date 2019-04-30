@@ -4,6 +4,7 @@
 @import 'shared/button.css';
 @import 'shared/headline.css';
 @import 'shared/navigation.css';
+@import "shared/article.css";
 @import 'components/header_banner.css';
 @import 'components/about_us.css';
 
