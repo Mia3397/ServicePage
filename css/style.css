@@ -1,0 +1,23 @@
+@import 'shared/variables.css';
+@import 'shared/fonts.css';
+@import 'shared/headline.css';
+@import 'components/link.css';
+@import 'components/button.css';
+@import 'components/header.css';
+@import 'components/navigation.css';
+@import 'components/social-links.css';
+@import 'components/banner.css';
+@import "components/gallery.css";
+@import 'components/about-us.css';
+@import 'components/article.css';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+.color-red {
+    color: rgba(218, 35, 70, 1);
+}

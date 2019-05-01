@@ -1,0 +1,51 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.banner__headline {
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.banner__arrow {
+    position: absolute;
+    top: 45%;
+    color: var(--transparent-white);
+    font-size: 40px;
+    display: block;
+    padding: 10px;
+    border: 1px solid var(--transparent-white);
+}
+
+.banner__arrow:hover {
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.banner__arrow.arrow_prev {
+    left: 30px;
+}
+
+.banner__arrow.arrow_next {
+    right: 30px;
+}
+
+.banner__button {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.banner__button:hover {
+    color: var(--light-cyanic);
+    border-color: var(--light-cyanic);
+}
