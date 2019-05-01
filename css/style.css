@@ -7,9 +7,14 @@
 @import 'components/navigation.css';
 @import 'components/social-links.css';
 @import 'components/banner.css';
-@import "components/gallery.css";
+@import 'components/gallery.css';
 @import 'components/about-us.css';
 @import 'components/article.css';
+@import 'components/services.css';
+@import 'components/title.css';
+@import 'components/list.css';
+@import 'components/item.css';
+
 
 *,
 *::after,

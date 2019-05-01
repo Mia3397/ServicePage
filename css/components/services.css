@@ -1,0 +1,24 @@
+.services {
+    font-family: 'SansationRegular', var(--additional-fonts);
+    position: relative;
+}
+
+.services__button {
+    --button-size: 40px;
+    color: #3d3d3d;
+    background-color: rgba(8, 158, 172, 1);
+    font-size: 20px;
+    width: var(--button-size);
+    height: var(--button-size);
+    position: absolute;
+    bottom: 0;
+}
+
+.services__button.button_next {
+    right: 0;
+}
+
+.services__button.button_prev {
+    right: calc(var(--button-size) + 5px);
+}
+
