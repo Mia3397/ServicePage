@@ -2,10 +2,6 @@
     display: flex;
 }
 
-.services__list {
-    background: rgba(61, 61, 61, 1);
-}
-
 .list__item {
     display: flex;
     flex-direction: column;
