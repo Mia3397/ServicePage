@@ -18,11 +18,11 @@
     bottom: 0;
 }
 
-.services__button.button_next {
+.button_next {
     right: 0;
 }
 
-.services__button.button_prev {
+.button_prev {
     right: calc(var(--button-size) + 5px);
 }
 

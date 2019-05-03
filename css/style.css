@@ -13,7 +13,7 @@
 @import 'components/services.css';
 @import 'components/title.css';
 @import 'components/list.css';
-@import 'components/item.css';
+@import 'components/service.css';
 
 
 *,
@@ -26,3 +26,4 @@
 .color-red {
     color: rgba(218, 35, 70, 1);
 }
+

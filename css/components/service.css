@@ -1,20 +1,32 @@
-.item__img {
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px 15px;
+}
+
+.service:hover,
+.service.active {
+    background-color: rgba(9, 126, 137, 1);
+}
+
+.service__img {
     margin-bottom: 40px;
 }
 
-.item__headline {
+.service__headline {
     color: rgba(255, 255, 255, 1);
     font-size: 26px;
     padding: 20px 0;
 }
 
-.item__description {
+.service__description {
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
 }
 
-.item__button {
+.service__button {
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     background: rgba(149, 149, 149, 1);
