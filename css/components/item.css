@@ -1,19 +1,23 @@
 .item__img {
     margin-bottom: 40px;
 }
+
 .item__headline {
     color: rgba(255, 255, 255, 1);
     font-size: 26px;
     padding: 20px 0;
 }
+
 .item__description {
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
 }
+
 .item__button {
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     background: rgba(149, 149, 149, 1);
     padding: 10px 35px;
 }
+

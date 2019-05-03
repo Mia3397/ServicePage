@@ -17,5 +17,5 @@ const showPreviousSlide = () => {
   list.style.marginLeft = `${position}px`;
 };
 
-carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide, false);
-carousel.querySelector('.arrow_next').addEventListener("click", showPreviousSlide, false);
+carousel.querySelector('.arrow_prev').addEventListener("click", showNextSlide);
+carousel.querySelector('.arrow_next').addEventListener("click", showPreviousSlide);

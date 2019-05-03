@@ -13,10 +13,10 @@ services.querySelector('.button_prev').addEventListener('click', () => {
   --activeService;
   if (activeService < 0) activeService = arrayOfItems.length -1;
   toggleActiveService();
-}, false);
+});
 
 services.querySelector('.button_next').addEventListener('click', () => {
   ++activeService;
   if (activeService > (arrayOfItems.length - 1)) activeService = 0;
   toggleActiveService()
-}, false);
+});
