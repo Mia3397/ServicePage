@@ -31,21 +31,21 @@
             </a>
         </section>
     </div>
-    <section class="banner">
+    <section class="banner carousel" id="bannerCarousel">
         <button class="button banner__arrow arrow_prev"><</button>
-        <div class="gallery">
-            <div class="gallery__viewer">
-                <div class="gallery__item">
+        <div class="gallery banner__gallery">
+            <div class=" gallery__viewer banner-gallery__viewer">
+                <div class="gallery__item banner-gallery__item">
                     <h2 class="headline banner__headline">The best services</h2>
                     <p>We provide the best services in the world. We provide the best services in the world. We
                         provide the best services in the world.</p>
                 </div>
-                <div class="gallery__item">
+                <div class="gallery__item banner-gallery__item">
                     <h2 class="headline banner__headline">The best services 2</h2> //change to h...
                     <p>We provide the best services in the world. We provide the best services in the world. We
                         provide the best services in the world.</p>
                 </div>
-                <div class="gallery__item">
+                <div class="gallery__item banner-gallery__item">
                     <h2 class="headline banner__headline">The best services 3</h2>
                     <p>We provide the best services in the world. We provide the best services in the world. We
                         provide the best services in the world.</p>
@@ -104,7 +104,68 @@
     <button class="button services__button button_prev"><</button>
     <button class="button services__button button_next">></button>
 </section>
-<script src="js/banner_carousel.js"></script>
+<section class="feedback" id="feedback">
+    <div class="title feedback__title">
+        <h2 class="headline title__headline">Feedback</h2>
+    </div>
+    <section class="content feedback__content">
+        <div class="carousel carousel_content">
+            <div class="gallery carousel__gallery">
+                <div class="gallery__viewer carousel-gallery__viewer">
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 1</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 2</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 3</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 4</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 5</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 6</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 7</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 8</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 9</p>
+                    <p class="carousel-gallery__item gallery__item">It was always a pleasure doing business with them. I love the quality of work. 10</p>
+                </div>
+            </div>
+            <div class="navigation carousel__navigation">
+                <button class="button carousel-navigation__button arrow_prev"><</button>
+                <div class="carousel-navigation__counter"></div>
+                <button class="button carousel-navigation__button arrow_next">></button>
+            </div>
+        </div>
+        <div class="partners">
+            <figure class="partner">
+                <img src="img/feedback/person.png" alt="Partner 1" class="partner__img">
+                <figcaption class="profile partner__profile">
+                    <div class="profile__number">01</div>
+                    <div class="profile__description">
+                        <h5 class="headline profile-description_headline">Imran Khan</h5>
+                        <p>CEO, Vesso</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="partner">
+                <img src="img/feedback/redhead-girl.png" alt="Partner 2" class="partner__img">
+                <figcaption class="profile partner__profile">
+                    <div class="profile__number">01</div>
+                    <div class="profile__description">
+                        <h5 class="headline profile-description_headline">Imran Khan</h5>
+                        <p>CEO, Vesso</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="partner">
+                <img src="img/feedback/person_1.png" alt="Partner 3" class="partner__img">
+                <figcaption class="profile partner__profile">
+                    <div class="profile__number">01</div>
+                    <div class="profile__description">
+                        <h5 class="headline profile-description_headline">Imran Khan</h5>
+                        <p>CEO, Vesso</p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+</section>
+<script src="js/carousel.js"></script>
 <script src="js/list-item.js"></script>
 </body>
 </html>
+

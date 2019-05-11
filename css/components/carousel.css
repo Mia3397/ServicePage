@@ -1,0 +1,32 @@
+.carousel_content {
+    color: rgba(205, 200, 200, 1);
+    margin-right: 40px;
+}
+
+.carousel__gallery {
+    --gallery-size: 350px;
+    width: var(--gallery-size);
+}
+
+.carousel-gallery__viewer {
+    width: calc(var(--gallery-size) * 10);
+}
+
+.carousel-gallery__item {
+    padding: 70px 50px;
+    font-size: 20px;
+}
+
+.carousel__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-navigation__button {
+    color: rgba(153, 153, 153, 1);
+    font-size: 45px;
+}
+
+.carousel-navigation__counter {
+    padding-top: 17px;
+}

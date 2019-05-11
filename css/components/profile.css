@@ -1,0 +1,18 @@
+.profile__description,
+.profile__number {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.profile__number {
+    padding: 20px;
+}
+
+.profile__description {
+    padding: 10px 110px 10px 5px;
+}
+
+.profile-description_headline {
+    text-transform: none;
+    font-size: 18px;
+}
+

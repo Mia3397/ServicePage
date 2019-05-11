@@ -24,6 +24,7 @@
     color: rgba(255, 255, 255, 1);
     font-size: 45px;
     display: inline-block;
+    width: 325px;
     position: relative;
 }
 
@@ -35,7 +36,7 @@
     width: var(--border-length);
     border-bottom: var(--border-width) solid rgba(255, 255, 255, 1);
     position: absolute;
-    bottom: var(--border-width);
+    bottom: 4px;
 }
 
 .title__headline::before {

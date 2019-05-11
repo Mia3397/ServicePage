@@ -5,6 +5,44 @@
     padding-bottom: 20%;
 }
 
+.banner__gallery {
+    --gallery-size: 734px;
+    --border-width: 1px;
+    width: var(--gallery-size);
+    border: var(--border-width) solid var(--transparent-white);
+    border-bottom: 0;
+    position: relative;
+}
+
+.banner__gallery::before,
+.banner__gallery::after {
+    content: '';
+    border-bottom: var(--border-width) solid var(--transparent-white);
+    display: inline-block;
+    width: 235px;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner__gallery::before {
+    right: 0;
+}
+
+.banner__gallery::after {
+    left: 0;
+}
+
+.banner-gallery__viewer {
+    width: calc(var(--gallery-size) * 3);
+    position: relative;
+}
+
+.banner-gallery__item {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    text-align: center;
+    padding: 90px 70px;
+}
 .banner__headline {
     font-size: 52px;
     margin-bottom: 30px;
